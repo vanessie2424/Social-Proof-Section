@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root{
+    /* colors */
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+    --SoftPink: hsl(333, 80%, 67%);
+    --DarkGrayishMagenta: hsl(303, 10%, 53%);
+    --LightGrayishMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+
+    /**font size **/
+    --fs: 15px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    
+}
+h1{
+    font-size: 60px;
+    color: var(--VeryDarkMagenta);
+    font-weight: 700;
+
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+main{
+    min-height: 100vh;
+    background: var(--White);
+    background-image: 
+    url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: top left,
+    bottom right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 85px;
+}
+
+.rateside{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.user{
+    position: relative;
+    right: 20px;
+    margin: 0 110px;
+    padding: 0 10px;
+}
+#service{
+    font-size: 17px;
+    margin: 15px 0;
+    font-weight: 400;
+
+}
+
+.rategroup{
+    position: relative;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 95px;
+
+}
+
+.review_rate{
+    position: relative;
+    display: flex;
+    background: var(--LightGrayishMagenta);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    border-radius: 6px;  
+    margin: 14px 0;  
+    padding: 0 20px;
+    right: 20px;
+}
+
+.report_rate{
+    position: relative;
+    display: flex;
+    background: var(--LightGrayishMagenta);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    border-radius: 6px;  
+    margin: 14px 0;  
+    padding: 0 20px;
+    left: 20px;
+}
+.tech_rate{
+    position: relative;
+    display: flex;
+    background: var(--LightGrayishMagenta);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    border-radius: 8px;   
+    margin: 14px 0; 
+    padding: 0 20px;
+    left: 50px;
+}
+.rated{
+    margin: 0 18px;
+}
+
+.rated p{
+    color: var(--VeryDarkMagenta);
+    font-size: var(--fs);
+    font-weight: 700;
+}
+
+.proofside{
+    display: flex;
+    margin: 90px 0; 
+    padding:  20 20px;
+    margin-right: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+    column-gap: 15px;
+    margin-top: 100px;
+    
+}
+/*
+.coltonside{
+    background: var(--VeryDarkMagenta);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 170px;
+    padding: 30px 20px;
+    width: 900px;
+
+}
+*/
+
+
+.information{
+    padding: 0 10px;  
+}
+img{
+    border-radius: 50%;
+    
+}
+.buyer{
+    color: var(--SoftPink);
+    margin-top: 5px;
+}
+
+.comment{
+    font-size: 17px;
+    color: var(--White);
+    font-weight: 400;
+    margin: 0 10px;
+
+}
+
+h3{
+    color: var(--White);
+}
+.coltonside{
+    background: var(--VeryDarkMagenta);
+    height: 200px;
+    width: 380px;
+    border-radius: 7px;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+
+
+}
+.colton{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.ireneside{
+    background: var(--VeryDarkMagenta);
+    height: 200px;
+    width: 380px;
+    border-radius: 7px;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+
+
+}
+.irene{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.anneside{
+    background: var(--VeryDarkMagenta);
+    height: 200px;
+    width: 380px;
+    border-radius: 7px;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+
+}
+.anne{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width: 700px) {
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/images/bg-pattern-top-mobile.svg), 
+        url(/images/bg-pattern-bottom-mobile.svg);
+        background-position: top left,
+        bottom right;
+        background-repeat: no-repeat;
+
+        
+    }
+    .rateside{
+        display: flex;
+        flex-direction: column;
+    }
+    .proofside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .user{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .rategroup{
+        text-align: center;
+    }
+    .review_rate{
+        position: relative;
+        left: 60px;
+        width: 350px;
+    }
+    .report_rate{
+        position: relative;
+        width: 350px;
+        left: 60px;
+    }
+    .tech_rate{
+        position: relative;
+        width: 350px;
+        left: 60px;
+    }
+
+    .coltonside{
+        margin: 25px 0;
+    }
+    .ireneside{
+        margin-bottom: 25px;
+    }
+    
+    
+}
