@@ -275,14 +275,14 @@ h3{
     .review_rate{
         display: flex;
         flex-direction: column;
-        width: 290px;
+        width: 270px;
         position: relative;
         left: 40px;
     }
     .report_rate{
         display: flex;
         flex-direction: column;
-        width: 290px;
+        width: 270px;
         position: relative;
         left: 40px;
     }
@@ -290,7 +290,7 @@ h3{
     .tech_rate{
         display: flex;
         flex-direction: column;
-        width: 290px;
+        width: 270px;
         position: relative;
         left: 40px;
     }
