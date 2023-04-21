@@ -34,8 +34,8 @@ main{
     min-height: 100vh;
     background: var(--White);
     background-image: 
-    url(/images/bg-pattern-top-desktop.svg),
-    url(/images/bg-pattern-bottom-desktop.svg);
+    url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
     background-position: top left,
     bottom right;
     background-repeat: no-repeat;
@@ -239,8 +239,8 @@ h3{
     main{
         background: var(--White);
         background-image: 
-        url(/images/bg-pattern-top-desktop.svg),
-        url(/images/bg-pattern-bottom-desktop.svg);
+        url(./images/bg-pattern-top-desktop.svg),
+        url(./images/bg-pattern-bottom-desktop.svg);
         background-position: top left,
         bottom right;
         background-repeat: no-repeat;
