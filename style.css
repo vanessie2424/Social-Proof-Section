@@ -261,11 +261,11 @@ h3{
     .review_rate{
         position: relative;
         left: 60px;
-        width: 350px;
+        width: 320px;
     }
     .report_rate{
         position: relative;
-        width: 350px;
+        width: 320px;
         left: 60px;
     }
     .tech_rate{
@@ -274,11 +274,20 @@ h3{
         left: 60px;
     }
 
+    #starnote{
+        font-size: 13px;
+    }
+
     .coltonside{
         margin: 25px 0;
+        width: 340px;
     }
     .ireneside{
         margin-bottom: 25px;
+        width: 340px;
+    }
+    .anneside{
+        width: 340px;
     }
     
     
